@@ -1,12 +1,17 @@
+body{
+    background-color:rgb(241, 240, 227)
+}
 .overall{
-    height:500px;
-    width:70%;
-    background-color: yellow;
+    height:450px;
+    width:500px;
+    background-color: rgba(211, 207, 197 ,0.2px);
     opacity: .8;
     margin: auto;
     padding: 2rem;
     justify-content:space-between;
-
+    margin-top: 20px;
+     box-shadow: 5px 10px 15px 10px rgb(165, 164, 151);
+     border-radius: 0.5rem;
 }
 .container {
     display: block;
@@ -15,9 +20,10 @@ input{
     display: block;
     margin:auto;
     margin-top: 20px;
-    padding: 4px;
-    border: 2px solid black;
-    
+    padding: 6px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 2px 1px rgb(150, 115, 115);
+    border-radius: 0.2rem;
 }
 button{
 
@@ -28,10 +34,20 @@ button{
 
 
 }
-.passage , p{
+#output{
+    text-align: center;
+    margin: 2rem;
+    font-size: larger;
+    font-style: italic;
+    
+}
+.passage{
 
     text-align: center;
     margin-top: 2rem;
     display:block;
     
+}
+.text{
+    display: block;
 }
